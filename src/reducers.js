@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 
-const CREATE_TODO = 'CREATE_TODO'
+export const CREATE_TODO = 'CREATE_TODO'
 
 const todos = (state = [], action) => {
   switch (action.type) {
